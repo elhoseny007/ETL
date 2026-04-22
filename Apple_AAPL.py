@@ -12,7 +12,7 @@ def main(website):
     if table is None:
         print("not existing")
     else:
-        print("تم العثور على الجدول")
+        print("file is existing")
     def historical_data(table):
         worlds=table.contents[3].find('b').text.strip()
         print(worlds)
